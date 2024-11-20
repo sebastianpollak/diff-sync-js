@@ -196,14 +196,19 @@ strPatch
 # Q&A
 
 **Which implamentation of diff-patch-Alg?**
+The Guaranteed Delivery Method was implemented. But the backup can be turend off.
 
 **where are the documents & the shadows?**
+In the index.js where DS is implemented a container is created. In this container the document is saved.
 
 **How and Why can we adjust the sync-cycle? What are the dis-advanteges?**
+Backup can be turned off. This can result in loss of changes and therfore cant guarantee consistency. If Backup can be turned off the sync Cycle is faster.
 
 **Where/How is the edit-Stack implemented?**
+It is implemented in the container in index.js as a array called edits. Whith shadow.edits.push the Edits get pushed to the patch?
 
 **Is it possible to deploy a Peer-to-Peer Version of Mr. Wei's implementation?**
+
 
 **How is it possible to use the API in other JS-Projects?**
 First you need to make an API request by using fatch or or axios libraries. APIs return JSON, meaning .json() with fetch or directly access response.data in axios.
