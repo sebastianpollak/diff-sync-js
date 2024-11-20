@@ -192,3 +192,24 @@ strPatch
      */
     strPatch(val, patch)
 ```
+
+# Q&A
+
+**Which implamentation of diff-patch-Alg?**
+
+**where are the documents & the shadows?**
+
+**How and Why can we adjust the sync-cycle? What are the dis-advanteges?**
+
+**Where/How is the edit-Stack implemented?**
+
+**Is it possible to deploy a Peer-to-Peer Version of Mr. Wei's implementation?**
+
+**How is it possible to use the API in other JS-Projects?**
+
+**Are the Json-Docs interchangeable with other kind of Docs?** 
+
+**How is Mr. Wei solving the conflicts?**
+
+**What are possible enhancements of Mr. Wei's Code? Should you suggest a pull-request?**
+
