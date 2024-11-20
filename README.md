@@ -206,10 +206,11 @@ strPatch
 **Is it possible to deploy a Peer-to-Peer Version of Mr. Wei's implementation?**
 
 **How is it possible to use the API in other JS-Projects?**
-
+First you need to make an API request by using fatch or or axios libraries. APIs return JSON, meaning .json() with fetch or directly access response.data in axios.
 **Are the Json-Docs interchangeable with other kind of Docs?** 
 
 **How is Mr. Wei solving the conflicts?**
 
 **What are possible enhancements of Mr. Wei's Code? Should you suggest a pull-request?**
 
+**Is it possible to combine diff-sync-js with a doc-oriented NoSQL-Datestore?**
